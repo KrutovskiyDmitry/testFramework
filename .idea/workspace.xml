@@ -4,7 +4,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a0823bed-f35c-4b8c-94d2-14f539013adf" name="Changes" comment="" />
+    <list default="true" id="a0823bed-f35c-4b8c-94d2-14f539013adf" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/example/cucumber/pages/ExamplePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/example/cucumber/pages/ExamplePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/example/cucumber/pages/VivicaRegistrationPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/example/cucumber/pages/VivicaRegistrationPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/example/cucumber/steps/LayouotAssertions.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/example/cucumber/steps/LoginSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/example/cucumber/steps/LoginSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/example/cucumber/steps/LoyaouotStep.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/example/utils/RemovingExtraAllureResults.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/example/utils/RemovingExtraAllureResults.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/example/Sample.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/example/Sample.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/selenide.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/selenide.properties" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -21,7 +38,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.152439" />
   </component>

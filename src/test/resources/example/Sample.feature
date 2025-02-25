@@ -10,4 +10,4 @@ Feature: Example
     Examples:
       | input | output |
       | 10    | 5      |
-      | 12    | 15     |
+      | 12    | 20     |
