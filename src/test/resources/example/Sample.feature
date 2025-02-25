@@ -3,14 +3,11 @@
 Feature: Example
 
   Scenario Outline: Пример сценария
-    Given Открываю страницу http://google.com
-    When Ввожу в поле ввода Привет Мир
-    When Нажимаю кнопку поиска
-    When Проверяю что найдено более <count> результатов
+    Given Открываю страницу https://the-internet.herokuapp.com/inputs
+    Then Проверяю что отображается поле ввода
+    When Ввожу в поле ввода <input>
+    Then Проверяю что в поле ввода число больше <output>
     Examples:
-      | count       |
-#      Позитивный сценарий
-      | 50000000    |
-#      Заведомо Fail сценарий
-      | 50000000000 |
-
+      | input | output |
+      | 10    | 5      |
+      | 12    | 15     |

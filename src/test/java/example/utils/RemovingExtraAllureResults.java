@@ -30,14 +30,11 @@ public class RemovingExtraAllureResults {
                     JsonNode rootNode = objectMapper.readTree(file);
                     JsonNode fieldValueNode = rootNode.get(fieldName);
                     try {
-                        System.out.println("TEXT!!!!!!!" + fieldValueNode.get(0).isEmpty());
                         continue;
                     } catch (NullPointerException nullPointerException) {
                         // значение не найдено, удаляем файл
-//                        System.out.println("Name file " + file.getName());
                         boolean deleted = file.delete();
                         if (!deleted) {
-                            System.out.println("Failed to delete file: " + file.getName());
                         }
                     }
                 } catch (IOException e) {

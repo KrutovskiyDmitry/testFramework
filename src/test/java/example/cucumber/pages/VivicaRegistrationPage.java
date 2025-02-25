@@ -24,20 +24,20 @@ public class VivicaRegistrationPage {
     /**
      * Заголовки полей на странице регистрации
      */
-    private static final List<SelenideElement> registrationFieldLabels = $$x("//span[text()='Register']//following::label");
+    private static final ElementsCollection registrationFieldLabels = $$x("//span[text()='Register']//following::label");
     private static ElementsCollection registrationFieldTitles = $$x("//span[text()='Register']//following::label");
     By registrationFieldInput = By.xpath("./following::div/input"); //путь от названия до поля ввода
 
     /**
      * Ошибки для полей ввода на странице регистрации пользователя
      */
-    private static final List<SelenideElement> registrationPageErrors = $$x("//div[@color = '#EA3D5C']");
+    private static final ElementsCollection registrationPageErrors = $$x("//div[@color = '#EA3D5C']");
 
 
     /**
      * Все кнопки на странице регистрации
      */
-    private static final List<SelenideElement> registrationPageButtons = $$x("//button");
+    private static final ElementsCollection registrationPageButtons = $$x("//button");
 
 
     /**
